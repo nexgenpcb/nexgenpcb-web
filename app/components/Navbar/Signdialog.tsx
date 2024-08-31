@@ -16,13 +16,13 @@ const Signin = () => {
 
     return (
         <>
-            <div className="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:pr-0">
+            {/* <div className="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:pr-0">
                 <div className='hidden lg:block'>
                     <button type="button" className='text-lg text-blue font-medium' onClick={openModal}>
                         Sign In
                     </button>
                 </div>
-            </div>
+            </div> */}
 
             <Transition appear show={isOpen} as={Fragment}>
                 <Dialog as="div" className="relative z-10" onClose={closeModal}>
