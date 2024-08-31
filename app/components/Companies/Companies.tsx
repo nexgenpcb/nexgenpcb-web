@@ -11,22 +11,22 @@ interface Data {
 const data: Data[] = [
 
     {
-        imgSrc: "./assets/carousel/download.png"
+        imgSrc: "./assets/carousel/ttm_technologies_638251853813436266_300.png"
     },
     {
-        imgSrc: "./assets/carousel/zwave-logo.png"
+        imgSrc: "./assets/carousel/pica_manufacturing_solutions_malaysia_sdn_bhd_638251846363324598_300.png"
     },
     {
-        imgSrc: "./assets/carousel/images.png"
+        imgSrc: "./assets/carousel/2022053020364900.png"
     },
     {
-        imgSrc: "./assets/carousel/foxcon.png"
+        imgSrc: "./assets/carousel/icape_group_638251839979386274_300.png"
     },
     {
         imgSrc: "./assets/carousel/rb-logo.png"
     },
     {
-        imgSrc: "./assets/carousel/omron.png"
+        imgSrc: "./assets/carousel/300_638296317364174272_200.png"
     },
 
 ]
