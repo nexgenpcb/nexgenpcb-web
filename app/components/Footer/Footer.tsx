@@ -27,16 +27,16 @@ const footer = () => {
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
-                        <img className="hidden  h-34 w-40 lg:block pl-8" src={'/assets/logo/logor.png'} alt="logo" />
+                        <img className="hidden  h-34 w-40 lg:block pl-8" src={'./assets/logo/logor.png'} alt="logo" />
                         <div className='flex gap-4'>
                             <Link href="https://facebook.com" className='footer-fb-icons'>
-                                <Image src={'/assets/footer/facebook.svg'} alt="facebook" width={15} height={20} />
+                                <Image src={'./assets/footer/facebook.svg'} alt="facebook" width={15} height={20} />
                             </Link>
                             <Link href="https://twitter.com" className='footer-icons'>
-                                <Image src={'/assets/footer/twitter.svg'} alt="twitter" width={20} height={20} />
+                                <Image src={'./assets/footer/twitter.svg'} alt="twitter" width={20} height={20} />
                             </Link>
                             <Link href="https://instagram.com" className='footer-icons'>
-                                <Image src={'/assets/footer/instagram.svg'} alt="instagram" width={20} height={20} />
+                                <Image src={'./assets/footer/instagram.svg'} alt="instagram" width={20} height={20} />
                             </Link> 
                         </div>
                     </div>
@@ -59,15 +59,15 @@ const footer = () => {
 
                     <div className='col-span-4 md:col-span-4 lg:col-span-4'>
                         <div className="flex gap-2">
-                            <Image src={'/assets/footer/mask.svg'} alt="mask-icon" width={24} height={24} />
+                            <Image src={'./assets/footer/mask.svg'} alt="mask-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-offwhite"> 925  Sam Chuk <br /> Phuket, Thailand</h5>
                         </div>
                         {/* <div className="flex gap-2 mt-10">
-                            <Image src={'/assets/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
+                            <Image src={'./assets/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-offwhite">+ 45 34 11 44 11</h5>
                         </div> */}
                         <div className="flex gap-2 mt-10">
-                            <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
+                            <Image src={'./assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-offwhite">info@nexgenpcbsolutions.com</h5>
                         </div>
                     </div>

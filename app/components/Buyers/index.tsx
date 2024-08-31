@@ -9,25 +9,25 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/assets/buyers/ourbuyers.svg',
+        imgSrc: './assets/buyers/ourbuyers.svg',
         percent: '80k',
         heading: "Our buyers",
         subheading: "Follow a hashtag growth total posts, videos and images.",
     },
     {
-        imgSrc: '/assets/buyers/projectcompleted.svg',
+        imgSrc: './assets/buyers/projectcompleted.svg',
         percent: '90k',
         heading: "Project completed",
         subheading: "Follow a hashtag growth total posts, videos and images.",
     },
     {
-        imgSrc: '/assets/buyers/happybuyers.svg',
+        imgSrc: './assets/buyers/happybuyers.svg',
         percent: '80%',
         heading: "Happy buyers",
         subheading: "Follow a hashtag growth total posts, videos and images.",
     },
     {
-        imgSrc: '/assets/buyers/teammembers.svg',
+        imgSrc: './assets/buyers/teammembers.svg',
         percent: '50+',
         heading: "Team members",
         subheading: "Follow a hashtag growth total posts, videos and images.",
