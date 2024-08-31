@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      {/* <Companies /> */}
+      <Companies />
       <Buyers />
       <Provide />
       <Network />

@@ -9,30 +9,29 @@ interface Data {
 }
 
 const data: Data[] = [
+
     {
-        imgSrc: "./assets/logo/logor.png"
+        imgSrc: "./assets/carousel/bose.png"
     },
     {
-        imgSrc: "./assets/carousel/garnier.png"
+        imgSrc: "./assets/carousel/QQ.png"
     },
     {
-        imgSrc: "./assets/carousel/slack.png"
+        imgSrc: "./assets/carousel/bq.png"
     },
     {
-        imgSrc: "./assets/carousel/udemy.png"
+        imgSrc: "./assets/carousel/hq.png"
     },
     {
-        imgSrc: "./assets/carousel/google.svg"
+        imgSrc: "./assets/carousel/tb.png"
     },
     {
-        imgSrc: "./assets/carousel/garnier.png"
+        imgSrc: "./assets/carousel/rb-logo.png"
     },
     {
-        imgSrc: "./assets/carousel/slack.png"
+        imgSrc: "./assets/carousel/omron.png"
     },
-    {
-        imgSrc: "./assets/carousel/udemy.png"
-    }
+
 ]
 
 
