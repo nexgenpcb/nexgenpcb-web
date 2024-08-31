@@ -11,19 +11,16 @@ interface Data {
 const data: Data[] = [
 
     {
-        imgSrc: "./assets/carousel/bose.png"
+        imgSrc: "./assets/carousel/download.png"
     },
     {
-        imgSrc: "./assets/carousel/QQ.png"
+        imgSrc: "./assets/carousel/zwave-logo.png"
     },
     {
-        imgSrc: "./assets/carousel/bq.png"
+        imgSrc: "./assets/carousel/images.png"
     },
     {
-        imgSrc: "./assets/carousel/hq.png"
-    },
-    {
-        imgSrc: "./assets/carousel/tb.png"
+        imgSrc: "./assets/carousel/foxcon.png"
     },
     {
         imgSrc: "./assets/carousel/rb-logo.png"
