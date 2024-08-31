@@ -22,7 +22,7 @@ const Newsletter = () => {
                     {/* COLUMN-2 */}
                     <div className="p-10 flex flex-col justify-center">
                         <h3 className="text-4xl md:text-5xl font-semibold mb-3 text-white">Sign up to our newsletter.</h3>
-                        <h4 className="text-base font-normal mb-7 text-offwhite">Craven omni memoria patriae zombieland clairvius narcisse religionis sunt diri undead historiarum.</h4>
+                        <h4 className="text-base font-normal mb-7 text-offwhite">Stay updated with NexGenPCB’s latest news and trends. Subscribe to our newsletter for exclusive insights.</h4>
                         <div className="flex gap-0">
                             <input type="Email address" name="q" className="py-4 text-sm w-full text-black bg-white rounded-l-lg pl-4" placeholder="@enter email-address" autoComplete="off" />
                             <button className="bg-midblue text-white font-medium py-2 px-4 rounded-r-lg">

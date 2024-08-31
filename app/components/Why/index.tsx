@@ -7,16 +7,16 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "Quality",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Expert in HDI PCBs",
+        subheading: "Our HDI PCBs offer compact, high-performance, reliable solutions.",
     },
     {
-        heading: "Communication",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Flexible PCBs",
+        subheading: "We excel in versatile, durable flexible PCBs for diverse applications.",
     },
     {
-        heading: "Reliability",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Vision and Commitment",
+        subheading: "Advancing PCB technology drives our vision for the company.",
     }
 ]
 
@@ -29,8 +29,8 @@ const Why = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                     {/* COLUMN-1 */}
-                    <div className="lg:-ml-64">
-                        <Image src="./assets/why/iPad.png" alt="iPad-image" width={4000} height={900} />
+                    <div className="lg:-ml-264 ">
+                        <Image src="./assets/why/man.jpg" alt="iPad-image" width={500} height={400} className="rounded-3xl" />
                     </div>
 
                     {/* COLUMN-2 */}

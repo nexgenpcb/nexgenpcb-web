@@ -8,29 +8,30 @@ interface cardDataType {
 }
 
 const cardData: cardDataType[] = [
-    {
-        imgSrc: './assets/buyers/ourbuyers.svg',
-        percent: '80k',
-        heading: "Our buyers",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
-    },
+    
     {
         imgSrc: './assets/buyers/projectcompleted.svg',
-        percent: '90k',
-        heading: "Project completed",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        percent: '300+',
+        heading: "Projects completed",
+        subheading: "Delivered high-quality PCBs that meet rigorous standards across various industries.",
+    },
+    {
+        imgSrc: '/assets/buyers/worldwide.png',
+        percent: '19+',
+        heading: "Nations",
+        subheading: "Strong multinational presence, with partnerships spanning multiple continents",
     },
     {
         imgSrc: './assets/buyers/happybuyers.svg',
         percent: '80%',
-        heading: "Happy buyers",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        heading: "Happy Customers",
+        subheading: "Experience exceptional product quality, reliable service, and innovative solutions",
     },
     {
         imgSrc: './assets/buyers/teammembers.svg',
         percent: '50+',
-        heading: "Team members",
-        subheading: "Follow a hashtag growth total posts, videos and images.",
+        heading: "Engineering Team",
+        subheading: "Highly skilled professionals dedicated to innovative design and fabrication.",
     }
 
 ]

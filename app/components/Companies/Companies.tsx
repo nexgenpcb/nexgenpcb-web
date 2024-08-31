@@ -10,7 +10,7 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "./assets/carousel/google.svg"
+        imgSrc: "./assets/logo/logor.png"
     },
     {
         imgSrc: "./assets/carousel/garnier.png"

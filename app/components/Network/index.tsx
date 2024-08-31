@@ -39,9 +39,9 @@ const Network = () => {
             <div className="mx-auto max-w-2xl py-20 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <h3 className="text-4xl sm:text-6xl font-semibold text-center my-10 lh-81">Our network & world <br /> work details.</h3>
 
-                <Image src={'./assets/network/map.png'} alt={"map-image"} width={1400} height={800} />
+                <Image src={'/assets/network/map.png'} alt={"map-image"} width={1400} height={800} />
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4 lg:gap-x-8'>
+                {/* <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4 lg:gap-x-8'>
                     {Aboutdata.map((item, i) => (
                         <div key={i} className='bg-white rounded-2xl p-5 shadow-xl'>
                             <div className="flex justify-start items-center gap-2">
@@ -52,7 +52,7 @@ const Network = () => {
                             <h4 className='text-lg font-normal text-bluegrey my-2'>{item.paragraph}</h4>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
         </div>
     )

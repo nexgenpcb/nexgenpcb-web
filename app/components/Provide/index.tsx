@@ -9,27 +9,27 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        imgSrc: "/assets/provide/marketing.svg",
-        country: "Marketing",
-        paragraph: 'Follow a hashtag total posts, videos',
+        imgSrc: "./assets/provide/marketing.svg",
+        country: "PCB Design",
+        paragraph: 'Tailored designs for precise needs',
 
     },
     {
-        imgSrc: "/assets/provide/graphic.svg",
-        country: "Graphic design",
-        paragraph: 'Follow a hashtag total posts, videos',
+        imgSrc: "./assets/provide/graphic.svg",
+        country: "Prototyping",
+        paragraph: 'Rapid development for testing concepts.',
 
     },
     {
-        imgSrc: "/assets/provide/heaking.svg",
-        country: "Heaking",
-        paragraph: 'Follow a hashtag total posts, videos',
+        imgSrc: "./assets/provide/heaking.svg",
+        country: "Manufacturing",
+        paragraph: 'High-quality, large-scale PCB production',
 
     },
     {
-        imgSrc: "/assets/provide/uidesign.svg",
-        country: "UI/UX Design",
-        paragraph: 'Follow a hashtag total posts, videos',
+        imgSrc: "./assets/provide/uidesign.svg",
+        country: "Testing & QA",
+        paragraph: 'Rigorous checks for superior reliability',
     },
 ]
 
@@ -44,9 +44,9 @@ const Provide = () => {
                     {/* COLUMN-1 */}
                     <div className='col-span-6 flex justify-center'>
                         <div className="flex flex-col align-middle justify-center p-10">
-                            <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">We provide that service.</p>
-                            <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</h4>
-                            <Link href={'/'} className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links">Learn more <Image src={'/assets/provide/arrow.svg'} alt={'arrow'} width={20} height={20} /></Link>
+                            <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">Complete PCB Solutions for Every Need.</p>
+                            <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">NexGenPCB Solutions offers end-to-end PCB services, including design, prototyping, manufacturing, and testing, to ensure top-quality, reliable products.</h4>
+                            <Link href={'/'} className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links">Learn more <Image src={'./assets/provide/arrow.svg'} alt={'arrow'} width={20} height={20} /></Link>
                         </div>
                     </div>
 
