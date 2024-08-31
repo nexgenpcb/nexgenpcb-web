@@ -9,6 +9,7 @@ import Newsletter from './components/Newsletter/Newsletter';
 
 
 export default function Home() {
+  console.log("NEXGENPCB")
   return (
     <main>
       <Banner />
