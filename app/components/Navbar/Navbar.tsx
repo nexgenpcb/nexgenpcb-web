@@ -42,12 +42,12 @@ const Navbar = () => {
                                 <img
                                     className="block h-28 w-28 lg:hidden"
                                     src={'./assets/logo/nexgen-logo.png'}
-                                    alt="dsign-logo"
+                                    alt="nexgenpcb-logo"
                                 />
                                 <img
                                     className="hidden  h-40 w-40 lg:block"
                                     src={'./assets/logo/nexgen-logo.png'}
-                                    alt="dsign-logo"
+                                    alt="nexgenpcb-logo"
                                 />
                             </div>
 
